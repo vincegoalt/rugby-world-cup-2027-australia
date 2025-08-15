@@ -1,0 +1,82 @@
+const sharp = require('sharp');
+const fs = require('fs');
+const path = require('path');
+
+// SVG content for the rugby ball
+const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Rugby ball shape with gradient -->
+  <defs>
+    <linearGradient id="ballGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A0522D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rugby ball ellipse -->
+  <ellipse cx="32" cy="32" rx="18" ry="28" fill="url(#ballGradient)" stroke="#5C3317" stroke-width="1"/>
+  
+  <!-- Center seam line -->
+  <line x1="32" y1="8" x2="32" y2="56" stroke="#F5DEB3" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Horizontal stitching lines -->
+  <line x1="27" y1="20" x2="37" y2="20" stroke="#F5DEB3" stroke-width="1.5" opacity="0.8"/>
+  <line x1="27" y1="28" x2="37" y2="28" stroke="#F5DEB3" stroke-width="1.5" opacity="0.8"/>
+  <line x1="27" y1="36" x2="37" y2="36" stroke="#F5DEB3" stroke-width="1.5" opacity="0.8"/>
+  <line x1="27" y1="44" x2="37" y2="44" stroke="#F5DEB3" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Vertical stitches -->
+  <line x1="32" y1="16" x2="32" y2="24" stroke="#F5DEB3" stroke-width="1" opacity="0.8"/>
+  <line x1="32" y1="24" x2="32" y2="32" stroke="#F5DEB3" stroke-width="1" opacity="0.8"/>
+  <line x1="32" y1="32" x2="32" y2="40" stroke="#F5DEB3" stroke-width="1" opacity="0.8"/>
+  <line x1="32" y1="40" x2="32" y2="48" stroke="#F5DEB3" stroke-width="1" opacity="0.8"/>
+  
+  <!-- Highlight for 3D effect -->
+  <ellipse cx="26" cy="24" rx="4" ry="6" fill="#FFFFFF" opacity="0.3"/>
+</svg>`;
+
+async function generateFavicons() {
+  const publicDir = path.join(__dirname, '..', 'public');
+  
+  // Generate PNG favicons at different sizes
+  const sizes = [16, 32, 48, 64, 128, 192, 512];
+  
+  for (const size of sizes) {
+    try {
+      await sharp(Buffer.from(svgContent))
+        .resize(size, size)
+        .png()
+        .toFile(path.join(publicDir, `favicon-${size}x${size}.png`));
+      console.log(`Generated favicon-${size}x${size}.png`);
+    } catch (error) {
+      console.error(`Error generating favicon-${size}x${size}.png:`, error);
+    }
+  }
+  
+  // Generate apple-touch-icon
+  try {
+    await sharp(Buffer.from(svgContent))
+      .resize(180, 180)
+      .png()
+      .toFile(path.join(publicDir, 'apple-touch-icon.png'));
+    console.log('Generated apple-touch-icon.png');
+  } catch (error) {
+    console.error('Error generating apple-touch-icon.png:', error);
+  }
+  
+  // Generate android chrome icons
+  const androidSizes = [192, 512];
+  for (const size of androidSizes) {
+    try {
+      await sharp(Buffer.from(svgContent))
+        .resize(size, size)
+        .png()
+        .toFile(path.join(publicDir, `android-chrome-${size}x${size}.png`));
+      console.log(`Generated android-chrome-${size}x${size}.png`);
+    } catch (error) {
+      console.error(`Error generating android-chrome-${size}x${size}.png:`, error);
+    }
+  }
+}
+
+generateFavicons().catch(console.error);

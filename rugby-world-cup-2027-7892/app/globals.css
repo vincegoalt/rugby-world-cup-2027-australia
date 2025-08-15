@@ -1,0 +1,278 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Rugby World Cup 2027 Brand Colors - Matching Venues Page */
+  --primary-blue-800: #1e40af;
+  --primary-blue-700: #1d4ed8;
+  --primary-blue-600: #2563eb;
+  --primary-blue-500: #3b82f6;
+  --primary-blue-100: #dbeafe;
+  --primary-blue-50: #eff6ff;
+  
+  --green-800: #166534;
+  --green-700: #15803d;
+  --green-600: #16a34a;
+  --green-500: #22c55e;
+  
+  --yellow-500: #eab308;
+  --yellow-400: #facc15;
+  
+  --red-500: #ef4444;
+  
+  /* Gray scale */
+  --gray-900: #111827;
+  --gray-800: #1f2937;
+  --gray-700: #374151;
+  --gray-600: #4b5563;
+  --gray-500: #6b7280;
+  --gray-400: #9ca3af;
+  --gray-200: #e5e7eb;
+  --gray-100: #f3f4f6;
+  --gray-50: #f9fafb;
+  
+  /* Text colors */
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-light: #6b7280;
+  
+  /* Backgrounds */
+  --background: #ffffff;
+  --background-gray: #f9fafb;
+  --background-dark: #111827;
+}
+
+/* Custom font face */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  color: var(--text-primary);
+  background: var(--background);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom Tailwind Components - Updated to match Venues Page */
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 transition-colors duration-200;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-800 transition-colors duration-200;
+  }
+  
+  .btn-outline-blue {
+    @apply border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300;
+  }
+  
+  .section-padding {
+    @apply py-16;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4;
+  }
+  
+  .hero-gradient {
+    @apply bg-gradient-to-r from-blue-800 via-blue-700 to-green-800;
+  }
+}
+
+/* Custom Tailwind Utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Animation utilities */
+  .animate-bounce-gentle {
+    animation: bounce-gentle 2s infinite;
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+  }
+  
+  .animate-scale-hover {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .animate-scale-hover:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Gradient utilities */
+  .gradient-rugby {
+    background: linear-gradient(135deg, var(--primary-blue-800) 0%, var(--green-800) 100%);
+  }
+  
+  .gradient-gold {
+    background: linear-gradient(135deg, var(--yellow-500) 0%, var(--yellow-400) 100%);
+  }
+  
+  .gradient-blue {
+    background: linear-gradient(to bottom, var(--primary-blue-50) 0%, white 100%);
+  }
+  
+  /* Shadow utilities */
+  .shadow-rugby {
+    box-shadow: 0 10px 25px -3px rgba(37, 99, 235, 0.1), 0 4px 6px -2px rgba(37, 99, 235, 0.05);
+  }
+  
+  /* Text shadow */
+  .text-shadow {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Focus styles */
+  .focus-rugby {
+    @apply focus:ring-2 focus:ring-blue-600 focus:border-transparent;
+  }
+  
+  /* Responsive text */
+  .text-responsive {
+    @apply text-sm sm:text-base lg:text-lg;
+  }
+  
+  .heading-responsive {
+    @apply text-2xl sm:text-3xl lg:text-4xl;
+  }
+  
+  /* Loading states */
+  .loading-skeleton {
+    @apply animate-pulse bg-gray-200 rounded;
+  }
+  
+  /* Glass effect */
+  .glass-effect {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Scroll behavior */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom Animations */
+@keyframes bounce-gentle {
+  0%, 20%, 53%, 80%, 100% {
+    transform: translate3d(0, 0, 0);
+  }
+  40%, 43% {
+    transform: translate3d(0, -8px, 0);
+  }
+  70% {
+    transform: translate3d(0, -4px, 0);
+  }
+  90% {
+    transform: translate3d(0, -2px, 0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .btn-primary {
+    @apply border-2 border-black;
+  }
+  
+  .card {
+    @apply border border-gray-800;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus visible for better accessibility */
+.focus-visible:focus {
+  outline: 2px solid var(--primary-blue-600);
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-blue-600);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-blue-700);
+}
+
+/* Selection styles */
+::selection {
+  background: var(--yellow-400);
+  color: var(--primary-blue-800);
+}
+
+::-moz-selection {
+  background: var(--yellow-400);
+  color: var(--primary-blue-800);
+}

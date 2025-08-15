@@ -1,0 +1,42 @@
+# Rugby World Cup 2027 Australia
+
+## About This Site
+This is the comprehensive guide to Rugby World Cup 2027 in Australia. We provide detailed information about tickets, match schedules, team profiles, venue guides, and travel tips for the tournament.
+
+## Key Information
+- Event: Rugby World Cup 2027
+- Dates: October-November 2027
+- Host Country: Australia
+- Host Cities: Sydney, Melbourne, Brisbane, Perth, Adelaide, Gold Coast, Newcastle, Townsville
+
+## Content Categories
+- Rugby World Cup 2027 Tickets (via our partner goaltickets.com)
+- Complete Match Schedule & Fixtures
+- Team Profiles for all 20 qualifying nations
+- Venue Guides for all stadiums
+- City Travel Guides
+- Accommodation Guides
+- Transportation Between Cities
+- Fan Zones & Events
+- Rugby World Cup History
+- Qualification Tracker
+- Match Predictions & Analysis
+- Ticket Buying Guides
+
+## Languages Available
+- English
+- French
+- Spanish
+- Japanese
+
+## Partner Information
+We partner with goaltickets.com for ticket sales. We are an independent guide and may earn commission from ticket purchases through our partner.
+
+## Contact
+For inquiries about Rugby World Cup 2027 content, please visit our website.
+
+## Technical Details
+- Built with Next.js
+- Deployed on Vercel
+- SEO-optimized with 500+ pages
+- Mobile-responsive design
