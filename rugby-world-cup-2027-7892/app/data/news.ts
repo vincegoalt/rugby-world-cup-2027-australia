@@ -635,6 +635,283 @@ Whether they achieve the three-peat or not, South Africa's presence guarantees R
     tags: ['springboks', 'south-africa', 'analysis', 'predictions'],
     readTime: 9,
     relatedArticles: ['all-blacks-squad-analysis', 'pool-b-preview']
+  },
+  {
+    id: 'banned-countries-rugby-world-cup-history',
+    slug: 'banned-countries-excluded-rugby-world-cup-suspensions',
+    title: 'Banned from Glory: Countries Excluded from Rugby World Cup History',
+    excerpt: 'The untold stories of nations suspended, banned, or excluded from Rugby World Cup participation - from apartheid-era South Africa to modern eligibility controversies.',
+    content: `
+# Banned from Glory: Countries Excluded from Rugby World Cup History
+
+While [Rugby World Cup 2027](/tickets) promises to showcase 20 nations competing for glory in [Australia](/venues), the tournament's history includes several controversial exclusions and bans that shaped international rugby.
+
+## South Africa: The Apartheid Ban (1987 & 1991)
+
+The most significant exclusion in Rugby World Cup history was South Africa's ban from the first two tournaments due to apartheid policies.
+
+### The 1987 Exclusion
+
+South Africa, despite being a rugby powerhouse, was excluded from the [inaugural Rugby World Cup](/) in 1987. The international sporting boycott, in place since the 1970s, meant the Springboks couldn't participate in New Zealand and Australia.
+
+### Impact on Rugby
+
+- Deprived the tournament of a major contender
+- South African players missed career-defining moments
+- Created a 'what if' scenario for 1987 and 1991
+- Rugby remained divided until 1992
+
+### The Return in 1995
+
+South Africa's readmission led to:
+- Hosting and winning the 1995 World Cup
+- Nelson Mandela's iconic jersey moment
+- Rugby as a unifying force
+- Current status as [three-time champions](/teams/south-africa)
+
+## Spain: The 2023 Eligibility Scandal
+
+### The Controversy
+
+Spain qualified for [Rugby World Cup 2023](/) but was disqualified for fielding an ineligible player, Gavin van den Berg, in qualifying matches.
+
+### The Punishment
+
+- **Deduction:** 10 points for two matches
+- **Fine:** £25,000
+- **Result:** Romania qualified instead
+- **Appeal:** Unsuccessful at all levels
+
+### Long-term Impact
+
+Spain's exclusion means they must rebuild for [2027 qualification](/teams):
+- Lost generation of players
+- Reduced funding and sponsorship
+- Grassroots development setback
+- Renewed focus on player eligibility
+
+## Russia: The 2022 Suspension
+
+### Political Consequences
+
+Following the 2022 invasion of Ukraine, Russia faced comprehensive sporting bans:
+- Suspended from World Rugby
+- Excluded from all international competitions
+- Cannot qualify for [RWC 2027](/schedule)
+- Players unable to transfer internationally
+
+### Rugby Impact
+
+- Ended 2027 World Cup qualification hopes
+- Isolated from European Rugby Championship
+- Domestic league continues in isolation
+- Future participation uncertain
+
+## Historical Exclusions and Controversies
+
+### Rhodesia (Zimbabwe)
+
+**Period:** 1965-1980
+- Never invited to Rugby World Cup
+- Unilateral Declaration of Independence led to isolation
+- Missed development opportunities
+- Now competes as Zimbabwe
+
+### Germany (East and West)
+
+**Cold War Division (1949-1990):**
+- Neither German state competed in early World Cups
+- Reunified Germany has since participated
+- Currently in [European qualification](/teams) for 2027
+
+### Ivory Coast: The 1995 Qualification Dispute
+
+- Originally qualified for 1995 World Cup
+- Disqualified after eligibility protest
+- Morocco took their place
+- Highlighted need for clearer regulations
+
+## Modern Eligibility Issues
+
+### The Grandparent Rule Controversy
+
+Several nations have faced scrutiny:
+- **Investigation targets:** Pacific Island nations
+- **Issues:** Heritage player eligibility
+- **Impact:** Stricter verification processes
+- **Future:** Potential rule changes for [2027](/tickets)
+
+### Financial Exclusions
+
+Some nations effectively excluded due to:
+- Inability to fund participation
+- Travel and accommodation costs
+- Player release from professional clubs
+- Development pathway limitations
+
+## Current Suspensions and Bans
+
+### Active Suspensions (2024)
+
+1. **Russia** - Political/military actions
+2. **Sri Lanka** - Governance issues (recently lifted)
+3. **Various minor unions** - Non-compliance with regulations
+
+### Teams at Risk for 2027
+
+Several nations face potential exclusion from [Rugby World Cup 2027](/tickets):
+- Governance compliance issues
+- Player welfare concerns
+- Financial irregularities
+- Political instability
+
+## The Path to Inclusion
+
+### World Rugby's Development Programs
+
+Efforts to prevent exclusions include:
+- **Get Into Rugby:** Grassroots development
+- **Regional tournaments:** Pathway competitions
+- **Financial support:** Development grants
+- **Governance assistance:** Administrative support
+
+### Qualification Opportunities
+
+For [RWC 2027 in Australia](/venues), expanded pathways ensure:
+- More nations can compete
+- Regional representation improved
+- Development teams supported
+- Final qualification tournament
+
+## Impact on Rugby World Cup 2027
+
+### Confirmed Participants
+
+The [20 teams](/teams) for 2027 will include:
+- **Automatic qualifiers:** Top 12 from 2023
+- **Regional qualifiers:** 8 additional spots
+- **No current suspensions** affecting major nations
+- **Full global representation** expected
+
+### Ensuring Fair Play
+
+World Rugby has implemented:
+- Stricter eligibility checks
+- Earlier qualification deadlines
+- Clearer suspension criteria
+- Transparent appeal processes
+
+## Lessons Learned
+
+### Positive Changes
+
+Past exclusions have led to:
+- Clearer eligibility rules
+- Better player tracking systems
+- Improved governance standards
+- More inclusive development programs
+
+### Ongoing Challenges
+
+- Political interference in sport
+- Financial disparities between nations
+- Player eligibility complexities
+- Governance standard maintenance
+
+## The Future of Inclusion
+
+### Rugby World Cup 2031
+
+Discussions include:
+- Expanding to 24 teams
+- More development team places
+- Regional pre-qualification tournaments
+- Enhanced support programs
+
+### Supporting Developing Nations
+
+Initiatives for growth:
+- High-performance coaching exchanges
+- Infrastructure development grants
+- Player pathway programs
+- Administrative capacity building
+
+## Notable Near-Misses
+
+### Countries That Almost Faced Bans
+
+1. **Romania** - Eligibility issues (2019)
+2. **Samoa** - Bankruptcy concerns (2017)
+3. **USA** - Governance disputes (2016)
+4. **Canada** - Financial crisis (2018)
+
+Each overcame challenges to maintain participation.
+
+## The Cost of Exclusion
+
+### Economic Impact
+
+Banned nations suffer:
+- Lost tournament revenue share
+- Reduced sponsorship value
+- Decreased government funding
+- Grassroots participation decline
+
+### Sporting Legacy
+
+Exclusion means:
+- Lost development opportunities
+- Player exodus to other nations
+- Coaching expertise drain
+- Infrastructure deterioration
+
+## Looking Ahead to RWC 2027
+
+### Ensuring Full Participation
+
+[Rugby World Cup 2027](/tickets) aims for:
+- No politically motivated exclusions
+- All qualified teams participating
+- Enhanced support for developing nations
+- Fair and transparent processes
+
+### The Australian Promise
+
+Host nation [Australia](/teams/australia) commits to:
+- Welcoming all qualified nations
+- Supporting team preparations
+- Ensuring safe participation
+- Celebrating rugby's diversity
+
+## Conclusion: Learning from History
+
+The exclusions and bans throughout Rugby World Cup history serve as important reminders:
+- Sport and politics inevitably intersect
+- Clear governance standards are essential
+- Inclusion grows the game globally
+- Every nation deserves a fair chance
+
+As we approach [Rugby World Cup 2027 in Australia](/), the focus remains on ensuring all qualified nations can participate, creating a truly global celebration of rugby.
+
+## Get Your Tickets
+
+Don't miss the most inclusive Rugby World Cup yet. [Secure your tickets](/tickets) to witness history as 20 nations compete for glory without the shadow of exclusion.
+
+### Related Articles
+- [Tournament Format and Qualification](/schedule)
+- [All Participating Teams](/teams)
+- [Venue Guide](/venues)
+- [Travel and Accommodation](/travel)
+
+*Rugby World Cup 2027 promises to be a celebration of unity, bringing together nations from across the globe in the spirit of competition and camaraderie.*
+    `,
+    category: 'analysis',
+    author: 'James Richardson',
+    publishDate: '2024-06-18',
+    featuredImage: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=1200&h=630&fit=crop',
+    tags: ['history', 'banned-countries', 'south-africa', 'spain', 'russia', 'eligibility', 'world-rugby', 'governance'],
+    readTime: 12,
+    relatedArticles: ['rwc-2027-100-days', 'springboks-title-defense']
   }
 ];
 
